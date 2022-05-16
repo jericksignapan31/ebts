@@ -355,13 +355,13 @@ require_once("config.php");
                     <a class="nav-link" href="#" style="margin-left:30px;margin-top:30px;font-size:1.1em;font-family:'Segoe UI';">BOOKING</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="customer-notification.php" style="margin-left:30px;margin-top:30px;font-size:1.1em;font-family:'Segoe UI';">NOTIFICATION</a>
+                    <a class="nav-link" href="#" style="margin-left:30px;margin-top:30px;font-size:1.1em;font-family:'Segoe UI';">NOTIFICATION</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="customer-contact.php" style="margin-left:30px;margin-top:30px;font-size:1.1em;font-family:'Segoe UI';">CONTACT</a>
+                    <a class="nav-link" href="#" style="margin-left:30px;margin-top:30px;font-size:1.1em;font-family:'Segoe UI';">CONTACT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="customer-about.php" style="margin-left:30px;margin-top:30px;font-size:1.1em;font-family:'Segoe UI';">ABOUT US</a>
+                    <a class="nav-link" href="#" style="margin-left:30px;margin-top:30px;font-size:1.1em;font-family:'Segoe UI';">ABOUT US</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="home.php" style="margin-left:30px;margin-top:30px;font-size:1.1em;font-family:'Segoe UI';">LOGOUT</a>
