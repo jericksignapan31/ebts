@@ -346,25 +346,25 @@ require_once("config.php");
     <div class="collapse navbar-collapse center-column" id="navbarTogglerDemo03">
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
         <li class="nav-item">
-          <a style="margin-left:-210%;"><img src="image/ebts_trans.png" style="width:200px;"></a>
+          <a style="margin-left:-150%;"><img src="image/ebts_trans.png" style="width:200px;"></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#" style="margin-left:30px;margin-top:30px;font-size:1.1em;font-family:'Segoe UI';">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" style="margin-left:30px;margin-top:30px;font-size:1.1em;font-family:'Segoe UI';">BOOKING</a>
+          <a class="nav-link" href="customer-booking.php" style="margin-left:30px;margin-top:30px;font-size:1.1em;font-family:'Segoe UI';">BOOKING</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" style="margin-left:30px;margin-top:30px;font-size:1.1em;font-family:'Segoe UI';">NOTIFICATION</a>
+          <a class="nav-link" href="customer-notification.php" style="margin-left:30px;margin-top:30px;font-size:1.1em;font-family:'Segoe UI';">NOTIFICATION</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" style="margin-left:30px;margin-top:30px;font-size:1.1em;font-family:'Segoe UI';">CONTACT</a>
+          <a class="nav-link" href="customer-contact.php" style="margin-left:30px;margin-top:30px;font-size:1.1em;font-family:'Segoe UI';">CONTACT</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" style="margin-left:30px;margin-top:30px;font-size:1.1em;font-family:'Segoe UI';">ABOUT US</a>
+          <a class="nav-link" href="customer-about.php" style="margin-left:30px;margin-top:30px;font-size:1.1em;font-family:'Segoe UI';">ABOUT US</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" style="margin-left:30px;margin-top:30px;font-size:1.1em;font-family:'Segoe UI';">LOGOUT</a>
+          <a class="nav-link" href="home.php" style="margin-left:30px;margin-top:30px;font-size:1.1em;font-family:'Segoe UI';">LOGOUT</a>
         </li>
       </ul>
     </div>
