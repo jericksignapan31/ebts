@@ -359,7 +359,7 @@ include("config.php");
         <?php
         if (isset($_POST['seee'])) {
             $search = $_POST['search'];
-            $sql1 = "SELECT * FROM tbl_trail  where name  regexp '(^|[[:space:]])$search([[:space:]]|$)' ORDER BY date DESC";
+            $sql1 = "SELECT * FROM tbl_trail  where name  regexp '(^|[[:space:]])$search([[:space:]]|$)' ORDER BY date asc";
             $result1 = $conn->query($sql1);
             if ($result1 == TRUE) {
                 echo "<html>";
@@ -378,7 +378,7 @@ cellspacing=0 cellpadding=0; >";
                     echo "<td><b>" . $row['date'];
                 }
             } else {
-                $sql2 = "SELECT * FROM tbl_trail ORDER BY date DESC";
+                $sql2 = "SELECT * FROM tbl_trail ORDER BY date asc";
                 $result2 = $conn->query($sql2);
                 if ($result2 == TRUE) {
                     echo "<html>";
@@ -399,7 +399,7 @@ cellspacing=0 cellpadding=0; >";
                 }
             }
         } else {
-            $sql1 = "SELECT * FROM tbl_trail ORDER BY date DESC";
+            $sql1 = "SELECT * FROM tbl_trail ORDER BY date asc";
             $result1 = $conn->query($sql1);
             if ($result1 == TRUE) {
                 echo "<html>";
