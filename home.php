@@ -344,8 +344,8 @@ require "config.php";
 
 
 
-  <div class="welcome-remark" style="margin-left:46%;margin-top:33%">
-    <h5 class="welcome" style="font-family:didot;color:#8b4334;font-size:30px;">WELCOME</h5>
+  <div class="welcome-remark" style="margin-left:40%;margin-top:45%">
+    <h5 class="welcome" style="font-family:didot;color:#8b4334;font-size:30px;margin-left:10%;">WELCOME</h5>
     <p style="margin-left:-35%">Fully furnished boarding house. We accept short-term and long-term borders. We have also a staycation for studio-type rooms.</p>
     <p></p>
   </div>
@@ -395,7 +395,7 @@ require "config.php";
 
   </section>
 
-  <div class="service" style="position:absolute;margin-top:85%;margin-left:35%;">
+  <div class="service" style="position:absolute;margin-top:95%;margin-left:30%;">
     <a><img src="image/service.png"></a>
   </div>
   <section id="locationfooter">
@@ -409,9 +409,9 @@ require "config.php";
             position: relative;
             text-align: right;
             height: 625px;
-            width: 795px;
-            margin-top: 100%;
-            margin-left: 20%
+            width: 810px;
+            margin-top: 110%;
+            margin-left: 5%
           }
         </style>
       </div>
@@ -433,7 +433,7 @@ require "config.php";
           <div class="col-md-4 mx-auto">
 
             <!-- Content -->
-            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contact Us: 0965 354 6415</h5>
+            <h5 style="margin-left:-15%;" class="font-weight-bold text-uppercase mt-3 mb-4">Contact Us: 0965 354 6415</h5>
           </div>
           <!-- Grid column -->
 
