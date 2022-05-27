@@ -2,7 +2,6 @@
 require_once("config.php");
 ?>
 <html>
-
 <head>
   <title>Customer Home</title>
   <!-- jQuery -->
@@ -22,16 +21,12 @@ require_once("config.php");
       margin: 0 auto;
       padding: 0;
     }
-
-
     /*---- STICKY NAVBAR ----*/
-
     #navbarsticky {
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
       overflow: hidden;
       background-color: rgba(255, 255, 255, 0.400);
     }
-
     .sticky {
       position: fixed;
       top: 0;
@@ -40,50 +35,38 @@ require_once("config.php");
       margin: 0;
       z-index: 1;
     }
-
     .center-column a:hover {
       color: #ff9900;
     }
-
     .center-column a:active {
       color: #ff9900;
     }
-
     .center-column ul {
       padding: 0px 5 0px 0px 50px;
     }
-
-
-
     .center-column ul li a {
       text-decoration: none;
       font-family: 'Source Sans Pro', sans-serif;
       font-weight: 600;
       color: black;
     }
-
     li.nav-item-right {
       margin-right: 30px;
       display: contents;
     }
-
     a.nav-link-right {
       text-decoration: none;
       color: black;
     }
-
     .menu-right ul li a {
       text-decoration: none;
       color: black;
       font-family: 'Source Sans Pro', sans-serif;
       font-weight: 600;
     }
-
     .menu-right a:hover {
       color: #ff9900;
     }
-
-
     /** PICTURE BOX */
     .container {
       padding: 3em;
@@ -91,7 +74,6 @@ require_once("config.php");
       grid-gap: 9.1em;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
-
     .quote {
       padding: 1em;
       background-color: #c1c8c9;
@@ -99,12 +81,10 @@ require_once("config.php");
       box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
       width: 380px;
       box-shadow: 0 3px 10px rgb(0 0 0 / 0.9);
-
       span {
         font-weight: bold;
         position: relative;
         margin-left: 15px;
-
         &:before {
           content: '';
           position: absolute;
@@ -116,69 +96,54 @@ require_once("config.php");
         }
       }
     }
-
-
     /*----- HOME SECTION ------*/
-
     .home-page {
       height: 100vh;
       margin: 0 auto;
       padding: 0;
     }
-
     .row {
       margin: 0 auto;
       padding: 0;
     }
-
     .home-row {
       background-color: #e2e1df;
     }
-
     .slider-right {
       background-color: #e2e1df;
     }
-
     .carousel-inner {
       padding: 45px 0px;
     }
-
     .carousel-item img {
       margin-right: 50px;
     }
-
     .text-left {
       margin-left: 75px;
       padding: 7.66% 0;
       ;
     }
-
     .first-text h1 {
       font-family: 'Raleway', sans-serif;
       font-weight: 800;
       color: black;
       font-size: 60px;
     }
-
     .first-text p {
       font-family: 'Source Sans Pro', sans-serif;
       font-weight: 400;
       color: grey;
     }
-
     .visit-shop-btn .btn {
       color: white;
       font-family: 'Source Sans Pro', sans-serif;
       font-weight: 400;
       font-size: 14px;
     }
-
     button.btn.btn-visit {
       background-color: #ff9900;
       padding: 10px 50px;
     }
-
-
     .icon {
       border-radius: 100%;
       width: 75%;
@@ -188,11 +153,7 @@ require_once("config.php");
       margin-left: 16%;
       opacity: 0.111;
     }
-
-
     /*////////// LATEST PRODUCT SECTION //////////*/
-
-
     .latest-products {
       height: 80vh;
       background-color: white;
@@ -200,17 +161,14 @@ require_once("config.php");
       padding: 0;
       overflow: hidden;
     }
-
     .card-latest-prod {
       width: 270px;
       height: 300px;
       background-color: #e2e1df;
     }
-
     .latest-prod-content {
       padding: 25px 15px;
     }
-
     .prod-name h3 {
       font-family: 'Source Sans Pro', sans-serif;
       font-weight: 600;
@@ -219,7 +177,6 @@ require_once("config.php");
       text-decoration: none;
       text-align: left;
     }
-
     .prod-name h5 {
       font-family: 'Source Sans Pro', sans-serif;
       font-weight: 300;
@@ -228,7 +185,6 @@ require_once("config.php");
       text-decoration: none;
       text-align: left;
     }
-
     .prod-price h3 {
       font-family: 'Source Sans Pro', sans-serif;
       font-weight: 600;
@@ -236,30 +192,23 @@ require_once("config.php");
       color: #2f2f2f;
       text-decoration: none;
     }
-
     .prod-price .btn {
       font-family: 'Source Sans Pro', sans-serif;
       font-weight: 300;
       font-size: 10px;
       background-color: #ff9900;
       color: white;
-
       padding: 6px 12px;
       border-radius: 0;
     }
-
-
-
     .latest-prod-inner h1 {
       font-family: 'Raleway', sans-serif;
       font-weight: 700;
       font-size: 40px;
       color: #2f2f2f;
       text-align: center;
-
       padding-top: 20px;
     }
-
     .row.latest-prod-sec {
       position: relative;
       text-align: center;
@@ -267,35 +216,26 @@ require_once("config.php");
       margin-top: 50px;
       padding: 0;
     }
-
     .col.inner-card {
       display: contents;
     }
-
     .card-latest-prod {
       margin-left: 30px;
       width: 270px;
       height: 300px;
       background-color: #e2e1df;
     }
-
     .card-latest-prod a {
       text-decoration: none;
     }
-
-
-
     /*------ BANNER -------*/
-
     .banner {
       height: 80vh;
       background-color: red;
       background-image: url("../img/banner.jpg");
       object-fit: fill;
     }
-
     /*----- Footer -----*/
-
     #footer {
       background: #fff;
       box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 1);
@@ -303,88 +243,70 @@ require_once("config.php");
       color: #222222;
       font-size: 14px;
     }
-
     #footer .credits {
       font-size: 13px;
-
       padding-top: 5px;
       color: #222222;
     }
-
     #footer .footer-links a {
       color: #222222;
       padding-left: 25px;
     }
-
     #footer .footer-links a:first-child {
       padding-left: 0;
     }
-
     #footer .footer-links a:hover {
       color: #3498db;
     }
   </style>
-
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,  shrink-to-fit=no">
   <link rel="stylesheet" type="text/css" href="css/style.css" />
-
   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
-
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/09b6d3ef90.js" crossorigin="anonymous"></script>
-
 </head>
-
 <body style="overflow-x:hidden;">
-
   <meta charset="utf-8">
   <!-- ======= Header ======= -->
   <nav class="navbar navbar-expand-sm navbar-light bg-light" id="navbarsticky" style="height:9%">
     <div class="collapse navbar-collapse center-column" id="navbarTogglerDemo03">
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
         <li class="nav-item">
-          <a style="margin-left:-150%;"><img src="image/ebts_trans.png" style="width:200px;"></a>
+          <a style="margin-left:-130%;"><img src="image/ebts_trans.png" style="height:70px;width:150px;margin-top:5px;"></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" style="margin-left:30px;margin-top:30px;font-size:1.1em;font-family:'Segoe UI';">HOME</a>
+           <a class="nav-link" href="home.php" style="margin-left:30px;margin-top:20px;font-size:1.1em;font-family:'Segoe UI';">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="customer-booking.php" style="margin-left:30px;margin-top:30px;font-size:1.1em;font-family:'Segoe UI';">BOOKING</a>
+          <a class="nav-link" href="customer-booking.php" style="margin-left:30px;margin-top:20px;font-size:1.1em;font-family:'Segoe UI';">BOOKING</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" style="margin-left:30px;margin-top:30px;font-size:1.1em;font-family:'Segoe UI';">NOTIFICATION</a>
+          <a class="nav-link" href="customer-notification.php" style="margin-left:30px;margin-top:20px;font-size:1.1em;font-family:'Segoe UI';">NOTIFICATION</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" style="margin-left:30px;margin-top:30px;font-size:1.1em;font-family:'Segoe UI';">CONTACT</a>
+          <a class="nav-link" href="customer-contact.php" style="margin-left:30px;margin-top:20px;font-size:1.1em;font-family:'Segoe UI';">CONTACT</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" style="margin-left:30px;margin-top:30px;font-size:1.1em;font-family:'Segoe UI';">ABOUT US</a>
+          <a class="nav-link" href="customer-about.php" style="margin-left:30px;margin-top:20px;font-size:1.1em;font-family:'Segoe UI';">ABOUT US</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="home.php" style="margin-left:30px;margin-top:30px;font-size:1.1em;font-family:'Segoe UI';">LOGOUT</a>
+          <a class="nav-link" href="home.php" style="margin-left:30px;margin-top:20px;font-size:1.1em;font-family:'Segoe UI';">LOGOUT</a>
         </li>
       </ul>
     </div>
   </nav>
   <!-- ======= End Header ======= -->
-
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
-
-
   <script>
     window.onscroll = function() {
       myFunction()
     };
-
     var navbarsticky = document.getElementById("navbarsticky");
     var sticky = navbarsticky.offsetTop;
-
     function myFunction() {
       if (window.pageYOffset >= sticky) {
         navbarsticky.classList.add("sticky")
@@ -393,7 +315,6 @@ require_once("config.php");
       }
     }
   </script>
-
   <div class="container">
     <?php
     $dbh = new PDO("mysql:host=localhost;dbname=db_ebts", "root", "");
@@ -446,5 +367,4 @@ require_once("config.php");
   </footer>
   <!-- End Footer -->
 </body>
-
 </html>
