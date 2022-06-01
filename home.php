@@ -707,10 +707,11 @@ if (isset($_POST['login'])) {
   if ($result == TRUE) {
     while ($row = $result->fetch_assoc()) {
       $full = $row['fullname'];
+      $sql2 = "INSERT INTO tbl_trail(name) VALUES('$full')";
+      $result2 = $conn->query($sql2);
     }
   }
-  $sql2 = "INSERT INTO tbl_trail(name) VALUES('$full')";
-  $result2 = $conn->query($sql2);
+
 
   if ($result->num_rows > 0) {
 ?>
