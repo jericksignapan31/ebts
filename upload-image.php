@@ -361,7 +361,7 @@ include("dbh.php");
         </a>
 
       </li>
-      <li class="has-subnav">
+      <li class="booking.php">
         <a href="#">
           <i class="fa fa-exclamation-triangle fa-2x"></i>
           <span class="nav-text">
