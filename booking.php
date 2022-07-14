@@ -360,11 +360,11 @@ include("config.php");
         
         <table class = "tbl_booking" style="width:100%">
   <tr>
-    <th>House</th>
-    <th>Name</th>
-    <th>Check In</th>
-    <th>Check Out</th>
-    <th>Reference</th>
+    <th style="text-align:center">House</th>
+    <th style="text-align:center">Name</th>
+    <th style="text-align:center">Check In</th>
+    <th style="text-align:center">Check Out</th>
+    <th style="text-align:center">Reference</th>
   </tr>
   <tr>
     <td>TESTHOUSENAME</td>
