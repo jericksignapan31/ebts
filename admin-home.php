@@ -264,7 +264,7 @@ include("config.php");
 
             </li>
             <li class="has-subnav">
-                <a href="#">
+                <a href="booking.php">
                     <i class="fa fa-exclamation-triangle fa-2x"></i>
                     <span class="nav-text">
                         Booking
