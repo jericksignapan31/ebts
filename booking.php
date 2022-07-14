@@ -376,7 +376,7 @@ include("config.php");
 <div class="table" font-size: 500px>
 </div>
 <style>
-table, th, td {
+.tb1_booking, th, td {
   border: 1px solid black;
 }
 </style>
