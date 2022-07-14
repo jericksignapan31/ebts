@@ -375,8 +375,6 @@ include("config.php");
 </table>
 <div class="table" font-size: 500px>
 </div>
-table th, td {
-  border: 1px solid black;
-}
+
 
 
