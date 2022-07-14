@@ -358,7 +358,7 @@ include("config.php");
             </div>
         </div>
         
-        <table class = "tbl_booking" style="width:100%">
+        <table class = "tbl_booking" style="width:100%" style="align:center">
   <tr>
     <th style="text-align:center">House</th>
     <th style="text-align:center">Name</th>
