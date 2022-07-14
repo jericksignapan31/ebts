@@ -434,7 +434,7 @@ include("config.php");
     <td>TESTNAME</td>
     <td>TESTDATE_IN</td>
     <td>TESTDATE_OUT</td>
-    <td>REFTEST</td>
+    <td>REFTEST1</td>
 </tr>
 <tr>
     <td>TESTHOUSENAME</td>
