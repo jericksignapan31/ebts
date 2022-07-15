@@ -340,155 +340,68 @@ include("config.php");
         </ul>
     </nav>
 
+<!-- Modal Section -->
+
 <section style="position:absolute;margin-left:35%;margin-top:10%;">
 <table class = "tbl_booking" style="width:100%" style="align:center">
-        
-        <tr>
-          <th style="text-align:center">New Bookings</th>
-          <th style="text-align:center">Check-In</th>
-          <th style="text-align:center">Check-Out</th>
-        </tr>
+<button id="myBtn" style="margin:25px"> NEW BOOKINGS</button>
+<button id="myBtn" style="margin:25px"> CHECK-IN</button>
+<button id="myBtn" style="margin:25px"> CHECK-OUT</button>
 
 
+<!-- Table Section -->
  <section style="position:absolute;margin-left:35%;margin-top:10%;">
-       
-
-        <caption style="text-align:center" font-size= "1000%" font-weight= "bold">LATEST BOOKINGS</caption>
-        <table class = "tbl_booking" style="width:100%" style="align:center">
-        
-  <tr>
-    <th style="text-align:center">House</th>
-    <th style="text-align:center">Name</th>
-    <th style="text-align:center">Check In</th>
-    <th style="text-align:center">Check Out</th>
-    <th style="text-align:center">Reference</th>
-  </tr>
-  <tr>
-    <td>TESTHOUSENAME</td>
-    <td>TESTNAME</td>
-    <td>TESTDATE_IN</td>
-    <td>TESTDATE_OUT</td>
-    <td>REFTEST</td>
-</tr>
-<tr>
-    <td>TESTHOUSENAME</td>
-    <td>TESTNAME</td>
-    <td>TESTDATE_IN</td>
-    <td>TESTDATE_OUT</td>
-    <td>REFTEST</td>
-</tr>
-<tr>
-    <td>TESTHOUSENAME</td>
-    <td>TESTNAME</td>
-    <td>TESTDATE_IN</td>
-    <td>TESTDATE_OUT</td>
-    <td>REFTEST</td>
-</tr>
-<tr>
-    <td>TESTHOUSENAME</td>
-    <td>TESTNAME</td>
-    <td>TESTDATE_IN</td>
-    <td>TESTDATE_OUT</td>
-    <td>REFTEST</td>
-</tr>
-<tr>
-    <td>TESTHOUSENAME</td>
-    <td>TESTNAME</td>
-    <td>TESTDATE_IN</td>
-    <td>TESTDATE_OUT</td>
-    <td>REFTEST</td>
-</tr>
-<tr>
-    <td>TESTHOUSENAME</td>
-    <td>TESTNAME</td>
-    <td>TESTDATE_IN</td>
-    <td>TESTDATE_OUT</td>
-    <td>REFTEST</td>
-</tr>
-<tr>
-    <td>TESTHOUSENAME</td>
-    <td>TESTNAME</td>
-    <td>TESTDATE_IN</td>
-    <td>TESTDATE_OUT</td>
-    <td>REFTEST</td>
-</tr>
-<tr>
-    <td>TESTHOUSENAME</td>
-    <td>TESTNAME</td>
-    <td>TESTDATE_IN</td>
-    <td>TESTDATE_OUT</td>
-    <td>REFTEST</td>
-</tr>
-<tr>
-    <td>TESTHOUSENAME</td>
-    <td>TESTNAME</td>
-    <td>TESTDATE_IN</td>
-    <td>TESTDATE_OUT</td>
-    <td>REFTEST</td>
-</tr>
-<tr>
-    <td>TESTHOUSENAME</td>
-    <td>TESTNAME</td>
-    <td>TESTDATE_IN</td>
-    <td>TESTDATE_OUT</td>
-    <td>REFTEST1</td>
-</tr>
-<tr>
-    <td>TESTHOUSENAME</td>
-    <td>TESTNAME</td>
-    <td>TESTDATE_IN</td>
-    <td>TESTDATE_OUT</td>
-    <td>REFTEST</td>
-</tr>
-<tr>
-    <td>TESTHOUSENAME</td>
-    <td>TESTNAME</td>
-    <td>TESTDATE_IN</td>
-    <td>TESTDATE_OUT</td>
-    <td>REFTEST</td>
-</tr>
-<tr>
-    <td>TESTHOUSENAME</td>
-    <td>TESTNAME</td>
-    <td>TESTDATE_IN</td>
-    <td>TESTDATE_OUT</td>
-    <td>REFTEST</td>
-</tr>
-<tr>
-    <td>TESTHOUSENAME</td>
-    <td>TESTNAME</td>
-    <td>TESTDATE_IN</td>
-    <td>TESTDATE_OUT</td>
-    <td>REFTEST</td>
-</tr>
-<tr>
-    <td>TESTHOUSENAME</td>
-    <td>TESTNAME</td>
-    <td>TESTDATE_IN</td>
-    <td>TESTDATE_OUT</td>
-    <td>REFTEST</td>
-</tr>
-<tr>
-    <td>TESTHOUSENAME</td>
-    <td>TESTNAME</td>
-    <td>TESTDATE_IN</td>
-    <td>TESTDATE_OUT</td>
-    <td>REFTEST</td>
-</tr>
-<tr>
-    <td>TESTHOUSENAME</td>
-    <td>TESTNAME</td>
-    <td>TESTDATE_IN</td>
-    <td>TESTDATE_OUT</td>
-    <td>REFTEST</td>
-</tr>
-<tr>
-    <td>TESTHOUSENAME</td>
-    <td>TESTNAME</td>
-    <td>TESTDATE_IN</td>
-    <td>TESTDATE_OUT</td>
-    <td>REFTEST</td>
-</tr>
+ <caption style="text-align:center" font-size= "1000%" font-weight= "bold"><b>LATEST BOOKINGS</b></caption>
+    <table class = "tbl_booking" style="width:100%" style="align:center">
+    <tr>
+        <th style="text-align:center">House</th>
+        <th style="text-align:center">Name</th>
+        <th style="text-align:center">Check In</th>
+        <th style="text-align:center">Check Out</th>
+        <th style="text-align:center">Reference</th>
+    </tr>
+    <tr>
+        <td>TESTHOUSENAME</td>
+        <td>TESTNAME</td>
+        <td>TESTDATE_IN</td>
+        <td>TESTDATE_OUT</td>
+        <td>REFTEST</td>
+    </tr>
+    <tr>
+        <td>TESTHOUSENAME</td>
+        <td>TESTNAME</td>
+        <td>TESTDATE_IN</td>
+        <td>TESTDATE_OUT</td>
+        <td>REFTEST</td>
+    </tr>
+    <tr>
+        <td>TESTHOUSENAME</td>
+        <td>TESTNAME</td>
+        <td>TESTDATE_IN</td>
+        <td>TESTDATE_OUT</td>
+        <td>REFTEST</td>
+    </tr>
+    <tr>
+        <td>TESTHOUSENAME</td>
+        <td>TESTNAME</td>
+        <td>TESTDATE_IN</td>
+        <td>TESTDATE_OUT</td>
+        <td>REFTEST</td>
+    </tr>
+    <tr>
+        <td>TESTHOUSENAME</td>
+        <td>TESTNAME</td>
+        <td>TESTDATE_IN</td>
+        <td>TESTDATE_OUT</td>
+        <td>REFTEST</td>
+    </tr>
+    <tr>
+        <td>TESTHOUSENAME</td>
+        <td>TESTNAME</td>
+        <td>TESTDATE_IN</td>
+        <td>TESTDATE_OUT</td>
+        <td>REFTEST</td>
+    </tr>
 </table>
 <div class="table" font-size: 500px>
 </div>
