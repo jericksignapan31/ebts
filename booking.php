@@ -345,10 +345,7 @@ include("config.php");
 <section style="position:absolute;margin-left:35%;margin-top:10%;">
 <table class = "tbl_booking" style="width:100%" style="align:center">
 <button id="myBtn" style="margin:25px" onclick="location.href='pending-reservations.php'"> NEW BOOKINGS</button>
-
 <button id="myBtn" style="margin:25px" onclick="location.href='####'"> CHECK-IN</button>
-
-
 <button id="myBtn" style="margin:25px" onclick="location.href='####'"> CHECK-OUT</button>
 
 
