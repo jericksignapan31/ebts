@@ -3,7 +3,7 @@ include("config.php");
 ?>
 <html>
 <head>
-    <title>Bookings</title>
+    <title>Pending Reservations</title>
     <link rel="icon" href="image/TRANSPARENT BG.png">
     <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -246,7 +246,7 @@ include("config.php");
 
 </style>
 <div class="home">
-    <h1 style='color:#38231d;'>··· Bookings ···</h1>
+    <h1 style='color:#38231d;'>··· Pending Reservations ···</h1>
 
 
     <div id="link_wrapper">
