@@ -340,6 +340,17 @@ include("config.php");
         </ul>
     </nav>
 
+<section style="position:absolute;margin-left:35%;margin-top:10%;">
+<table class = "tbl_booking" style="width:100%" style="align:center">
+        
+        <tr>
+          <th style="text-align:center">House</th>
+          <th style="text-align:center">Name</th>
+          <th style="text-align:center">Check In</th>
+          <th style="text-align:center">Check Out</th>
+          <th style="text-align:center">Reference</th>
+        </tr>
+
 
  <section style="position:absolute;margin-left:35%;margin-top:10%;">
        
