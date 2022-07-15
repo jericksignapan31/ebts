@@ -3,7 +3,7 @@ include("config.php");
 ?>
 <html>
 <head>
-    <title>Bookings</title>
+    <title>For Checkout</title>
     <link rel="icon" href="image/TRANSPARENT BG.png">
     <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -346,7 +346,7 @@ include("config.php");
 <table class = "tbl_booking" style="width:100%" style="align:center">
 <button id="myBtn" style="margin:25px" onclick="location.href='pending-reservations.php'"> NEW BOOKINGS</button>
 <button id="myBtn" style="margin:25px" onclick="location.href='approved-reservations.php'"> CHECK-IN</button>
-<button id="myBtn" style="margin:25px" onclick="location.href='####'"> CHECK-OUT</button>
+<button id="myBtn" style="margin:25px" onclick="location.href='for-checkout.php'"> CHECK-OUT</button>
 
 
 <!-- Table Section -->
