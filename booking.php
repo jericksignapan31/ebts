@@ -344,11 +344,9 @@ include("config.php");
 <table class = "tbl_booking" style="width:100%" style="align:center">
         
         <tr>
-          <th style="text-align:center">House</th>
-          <th style="text-align:center">Name</th>
-          <th style="text-align:center">Check In</th>
-          <th style="text-align:center">Check Out</th>
-          <th style="text-align:center">Reference</th>
+          <th style="text-align:center">New Bookings</th>
+          <th style="text-align:center">Check-In</th>
+          <th style="text-align:center">Check-Out</th>
         </tr>
 
 
