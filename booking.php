@@ -359,7 +359,7 @@ include("config.php");
         </div>
         
         <table class = "tbl_booking" style="width:100%" style="align:center">
-        <caption style="text-align:center" font-size= "100">LATEST BOOKINGS</caption>
+        <caption style="text-align:center" font-size= "100" style="caption-side:up">LATEST BOOKINGS</caption>
   <tr>
     <th style="text-align:center">House</th>
     <th style="text-align:center">Name</th>
