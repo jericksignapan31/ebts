@@ -341,24 +341,12 @@ include("config.php");
     </nav>
 
 
+ <section style="position:absolute;margin-left:35%;margin-top:10%;">
+       
 
-
-
-
-
- <section style="position:absolute;margin-left:20%;margin-top:5%;">
-        <div class="topnav">
-            <div class="search-container" style="margin-left:60%;margin-top:2%;">
-                <form action="" method=POST>
-                    <p style="visibility:hidden">ID Search</p>
-                    <input type="text" placeholder="Search Here..." name="search">
-                    <button type="submit" name="seee" style='background-color:#38231d;color:white;width:15%;font-family: Orelega One cursive;'>Search</button>
-                    <a href="admin-trail.php"><button style='background-color:#38231d;color:white;width:15%;font-family: Orelega One cursive;'>View All</button></a>
-                </form>
-            </div>
-        </div>
-        
+        <caption style="text-align:center" font-size= "1000%" font-weight= "bold">LATEST BOOKINGS</caption>
         <table class = "tbl_booking" style="width:100%" style="align:center">
+        
   <tr>
     <th style="text-align:center">House</th>
     <th style="text-align:center">Name</th>
@@ -492,7 +480,6 @@ include("config.php");
     <td>TESTDATE_OUT</td>
     <td>REFTEST</td>
 </tr>
-<caption style="text-align:center" font-size= "100">LATEST BOOKINGS</caption>
 </table>
 <div class="table" font-size: 500px>
 </div>
