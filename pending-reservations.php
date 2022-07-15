@@ -3,7 +3,7 @@ include("config.php");
 ?>
 <html>
 <head>
-    <title>Bookings</title>
+    <title>Pending Reservations</title>
     <link rel="icon" href="image/TRANSPARENT BG.png">
     <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -246,7 +246,7 @@ include("config.php");
 
 </style>
 <div class="home">
-    <h1 style='color:#38231d;'>··· Bookings ···</h1>
+    <h1 style='color:#38231d;'>··· Pending Reservations ···</h1>
 
 
     <div id="link_wrapper">
@@ -339,77 +339,3 @@ include("config.php");
             </li>
         </ul>
     </nav>
-
-<!-- Modal Section -->
-
-<section style="position:absolute;margin-left:35%;margin-top:10%;">
-<table class = "tbl_booking" style="width:100%" style="align:center">
-<button id="myBtn" style="margin:25px" onclick="location.href='pending-reservations.php'"> NEW BOOKINGS</button>
-<button id="myBtn" style="margin:25px" onclick="location.href='####'"> CHECK-IN</button>
-<button id="myBtn" style="margin:25px" onclick="location.href='####'"> CHECK-OUT</button>
-
-
-<!-- Table Section -->
- <section style="position:absolute;margin-left:35%;margin-top:10%;">
- <caption style="text-align:center" font-size= "1000%" font-weight= "bold"><b>LATEST BOOKINGS</b></caption>
-    <table class = "tbl_booking" style="width:100%" style="align:center">
-    <tr>
-        <th style="text-align:center">House</th>
-        <th style="text-align:center">Name</th>
-        <th style="text-align:center">Check In</th>
-        <th style="text-align:center">Check Out</th>
-        <th style="text-align:center">Reference</th>
-    </tr>
-    <tr>
-        <td>TESTHOUSENAME</td>
-        <td>TESTNAME</td>
-        <td>TESTDATE_IN</td>
-        <td>TESTDATE_OUT</td>
-        <td>REFTEST</td>
-    </tr>
-    <tr>
-        <td>TESTHOUSENAME</td>
-        <td>TESTNAME</td>
-        <td>TESTDATE_IN</td>
-        <td>TESTDATE_OUT</td>
-        <td>REFTEST</td>
-    </tr>
-    <tr>
-        <td>TESTHOUSENAME</td>
-        <td>TESTNAME</td>
-        <td>TESTDATE_IN</td>
-        <td>TESTDATE_OUT</td>
-        <td>REFTEST</td>
-    </tr>
-    <tr>
-        <td>TESTHOUSENAME</td>
-        <td>TESTNAME</td>
-        <td>TESTDATE_IN</td>
-        <td>TESTDATE_OUT</td>
-        <td>REFTEST</td>
-    </tr>
-    <tr>
-        <td>TESTHOUSENAME</td>
-        <td>TESTNAME</td>
-        <td>TESTDATE_IN</td>
-        <td>TESTDATE_OUT</td>
-        <td>REFTEST</td>
-    </tr>
-    <tr>
-        <td>TESTHOUSENAME</td>
-        <td>TESTNAME</td>
-        <td>TESTDATE_IN</td>
-        <td>TESTDATE_OUT</td>
-        <td>REFTEST</td>
-    </tr>
-</table>
-<div class="table" font-size: 500px>
-</div>
-<style>
-.tb1_booking, th, td {
-  border: 1px solid black;
-}
-</style>
-
-
-
