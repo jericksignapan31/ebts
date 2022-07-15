@@ -321,21 +321,21 @@ require_once("config.php");
     $stat = $dbh->prepare("SELECT * from tbl_picture");
     $stat->execute();
     while ($row = $stat->fetch()) {?>
-      <div class='quote'><embed src='data:image/jpg;base64, <?php base64_encode($row['data']) ?>' width='350' height='230' />";
+      <div class='quote'><embed src='data:image/jpg;base64, <?php echo base64_encode($row['data']) ?>' width='350' height='230' />
       <h3 style='width:100%;font-size:1.8em;'><b><center><?php echo $row ['name']?></center></b></h3>
-      <?php
-      echo "<h3 style='font-size:1.17em;overflow:auto;font-family:Moonglade;'><br><img src='image/location-removebg-preview.png' style='width:6%;'>" . $row['location'] . "</h3>";
-      echo "<div style='margin-left:60%;margin-top:-10%;'>";
-      echo "<h3 style='font-size:1.17em;overflow:auto;font-family:Moonglade;'><svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-cash' viewBox='0 0 16 16'>
+      <h3 style='font-size:1.17em;overflow:auto;font-family:Moonglade;'><br><img src='image/location-removebg-preview.png' style='width:6%;'> <?php echo $row['location'] ?> </h3>
+      <div style='margin-left:60%;margin-top:-10%;'>
+      <h3 style='font-size:1.17em;overflow:auto;font-family:Moonglade;'><svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-cash' viewBox='0 0 16 16'>
     <path d='M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4z'/>
     <path d='M0 4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V6a2 2 0 0 1-2-2H3z'/>
-  </svg>&nbsp&nbsp" . $row['price'] . "</h3>";
-      echo "</div>";
-      echo "<h3 style='font-size:1.17em;overflow:auto;font-family:Moonglade;'><svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-people' viewBox='0 0 16 16'>
+  </svg>&nbsp&nbsp<?php echo $row['price'] ?> </h3>
+      </div>
+      <h3 style='font-size:1.17em;overflow:auto;font-family:Moonglade;'><svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-people' viewBox='0 0 16 16'>
     <path d='M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z'/>
-  </svg> " . $row['capacity'] . "</h3>";
-      echo "<br><button class='btn' style='width:100%;background-color:#b39a88;'><a href='information.php?id=" . $row['id'] . "' style='color:white;letter-spacing: 0.3em;text-decoration: none;'><b>Check Availability</b></a></button>";
-      echo "</div>";
+  </svg> <?php echo $row['capacity'] ?> </h3>
+      <br><button class='btn' style='width:100%;background-color:#b39a88;'><a href='information.php?id=" <?php echo $row['id'] ?> 'style='color:white;letter-spacing: 0.3em;text-decoration: none;'><b>Check Availability</b></a></button>
+      </div>
+      <?php
     }
     ?>
   </div>
