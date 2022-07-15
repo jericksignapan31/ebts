@@ -317,12 +317,20 @@ require_once("config.php");
   </script>
   <div class="container">
     <?php
+    $sql = "SELECT * FROM tbl_picture;";
+    $result = mysqli_query($conn, $sql);
+    $resultCheck = mysqli_num_rows($result);
+
+    if ($resultCheck > 0){
+        while ($row = mysqli_fetch_assoc($result)){
+        }
+    }
     $dbh = new PDO("mysql:host=localhost;dbname=db_ebts", "root", "");
     $stat = $dbh->prepare("SELECT * from tbl_picture");
     $stat->execute();
-    while ($row = $stat->fetch()) {?>
-      <div class='quote'><embed src='data:image/jpg;base64, <?php base64_encode($row['data']) ?>' width='350' height='230' />";
-      <h3 style='width:100%;font-size:1.8em;'><b><center><?php echo $row ['name']?></center></b></h3>
+    while ($row = $stat->fetch()) { ?>
+      <div class='quote'><embed src='data:image/jpg;base64, <?php echo base64_encode($row['data']); ?>' width='350' height='230' />";
+      <h3 style='width:100%;font-size:1.8em;'><b><center><?php echo $row ['name'] ?></center></b></h3>
       <?php
       echo "<h3 style='font-size:1.17em;overflow:auto;font-family:Moonglade;'><br><img src='image/location-removebg-preview.png' style='width:6%;'>" . $row['location'] . "</h3>";
       echo "<div style='margin-left:60%;margin-top:-10%;'>";
