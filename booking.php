@@ -357,8 +357,9 @@ include("config.php");
                 </form>
             </div>
         </div>
-        
+        <caption style="text-align:center" font-size= "1000%" font-weight= "bold">LATEST BOOKINGS</caption>
         <table class = "tbl_booking" style="width:100%" style="align:center">
+        
   <tr>
     <th style="text-align:center">House</th>
     <th style="text-align:center">Name</th>
@@ -492,7 +493,6 @@ include("config.php");
     <td>TESTDATE_OUT</td>
     <td>REFTEST</td>
 </tr>
-<caption style="text-align:center" font-size= "100">LATEST BOOKINGS</caption>
 </table>
 <div class="table" font-size: 500px>
 </div>
