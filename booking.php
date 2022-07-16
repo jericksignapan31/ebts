@@ -349,19 +349,9 @@ include("config.php");
 <button id="myBtn" style="margin:25px" onclick="location.href='for-checkout.php'"> CHECK-OUT <img src="https://www.clipartmax.com/png/full/52-528111_medium-image-door-open-clip-art.png" width = "50" height = "50" alt="Open Book - Opened Book Clip Art @clipartmax.com"></button>
 
 
-<!-- Table Section -->
+<!-- Table Section (to be edited - database, sql, naming scheme-->
  
 <section style="position:absolute;margin-left:20%;margin-top:5%;">
-        <div class="topnav">
-            <div class="search-container" style="margin-left:60%;margin-top:2%;">
-                <form action="" method=POST>
-                    <p style="visibility:hidden">ID Search</p>
-                    <input type="text" placeholder="Search Here..." name="search">
-                    <button type="submit" name="seee" style='background-color:#38231d;color:white;width:15%;font-family: Orelega One cursive;'>Search</button>
-                    <a href="admin-trail.php"><button style='background-color:#38231d;color:white;width:15%;font-family: Orelega One cursive;'>View All</button></a>
-                </form>
-            </div>
-        </div>
         
         <?php
         if (isset($_POST['seee'])) {
