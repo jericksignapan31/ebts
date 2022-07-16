@@ -340,7 +340,7 @@ include("config.php");
         </ul>
     </nav>
 
-<!-- Modal Section -->
+<!-- Modal Buttons Section -->
 
 <section style="position:absolute;margin-left:35%;margin-top:10%;">
 <table class = "tbl_booking" style="width:100%" style="align:center">
