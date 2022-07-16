@@ -344,7 +344,7 @@ include("config.php");
 
 <section style="position:absolute;margin-left:35%;margin-top:10%;">
 <table class = "tbl_booking" style="width:100%" style="align:center">
-<button id="myBtn" style="margin:25px" onclick="location.href='pending-reservations.php'"> NEW BOOKINGS</button>
+<button id="myBtn" style="margin:25px" onclick="location.href='pending-reservations.php'"><img src="https://www.clipartmax.com/png/small/51-518703_open-book-opened-book-clip-art.png" alt="Open Book - Opened Book Clip Art @clipartmax.com"> NEW BOOKINGS</button>
 <button id="myBtn" style="margin:25px" onclick="location.href='approved-reservations.php'"> CHECK-IN</button>
 <button id="myBtn" style="margin:25px" onclick="location.href='for-checkout.php'"> CHECK-OUT</button>
 
