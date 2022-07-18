@@ -339,17 +339,17 @@ require_once("config.php");
 
 		<div class="border1">
 			<i class="fa-solid fa-house-chimney"></i>
-			<input class="houseName" type="text" name="houseName"/>
+			<input class="houseName" type="text" name="houseName" readonly/>
 			<i class="fa-solid fa-money-bills"></i>
-			<input class="rate" type="text" name="cost" /> <input class="perNight" type="text" name="perNight" placeholder="          /per night" />
+			<input class="rate" type="text" name="cost" /> <input class="perNight" type="text" name="perNight" placeholder="          /per night" readonly/>
 			<i class="fa-solid fa-location-dot"></i>
-			<input class="location" type="text" name="address" />
+			<input class="location" type="text" name="address" readonly/>
 
 			<p class="text2">Amenities</p>
-			<input class="amenities" type="text" name="amenities" />
+			<input class="amenities" type="text" name="amenities" readonly/>
 
 			<p class="text3">Spaces</p>
-			<input class="spaces" type="text" name="spaces" />
+			<input class="spaces" type="text" name="spaces" readonly/>
 		</div>
 
 		<p class="reservation-details">RESERVATION DETAILS</p>
