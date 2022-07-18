@@ -356,7 +356,7 @@ include("config.php");
         <?php
         if (isset($_POST['seee'])) {
             $search = $_POST['search'];
-            $sql1 = "SELECT * FROM booking_status  where fullname  regexp '(^|[[:space:]])$search([[:space:]]|$)'";
+            $sql1 = "SELECT * FROM tbl_booking  where fullname  regexp '(^|[[:space:]])$search([[:space:]]|$)'";
             $result1 = $conn->query($sql1);
             if ($result1 == TRUE) {
                 echo "<html>";
@@ -379,7 +379,7 @@ cellspacing=0 cellpadding=0; >";
                     echo "<td>" . $row['booking_id'];
                 }
             } else {
-                $sql2 = "SELECT * FROM booking_status";
+                $sql2 = "SELECT * FROM tbl_booking";
                 $result2 = $conn->query($sql2);
                 if ($result2 == TRUE) {
                     echo "<html>";
@@ -404,7 +404,7 @@ cellspacing=0 cellpadding=0; >";
                 }
             }
         } else {
-            $sql2 = "SELECT * FROM booking_status";
+            $sql2 = "SELECT * FROM tbl_booking";
             $result2 = $conn->query($sql2);
             if ($result2 == TRUE) {
                 echo "<html>";
