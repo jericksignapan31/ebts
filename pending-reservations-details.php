@@ -358,7 +358,7 @@ require_once("config.php");
 		<a href="customer-home.php">
 			<i class="fa-solid fa-circle-xmark"></i>
 		</a>
-        <p class="reference">REFERENCE NUMBER </p>
+        <p class="reference">Reference Number: </p>
 		<p class="details">DETAILS</p>
 
 		<div class="border1">
@@ -370,6 +370,10 @@ require_once("config.php");
 			<input class="location" type="text" name="address" readonly/>
 		</div>
 
+        <p class="details">CUSTOMER DETAILS</p>
+        <div class="border1">
+			
+        </div>
 		<p class="reservation-details">RESERVATION DETAILS</p>
 		<div class="border2">
 			<form class="" action="" method="post">
