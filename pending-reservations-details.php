@@ -147,15 +147,15 @@ require_once("config.php");
 		font-size: 12px;
 		color: #786462;
 		margin-left: 10px;
-		margin-top: 125px;
+		margin-top: 6px;
 	}
 
-	.amenities {
+	.cdeets {
 		position: absolute;
-		top: 140;
+		top: 20;
 		left: 10;
 		height: 25px;
-		width: 335px;
+		width: 300px;
 	}
 
 	.text3 {
@@ -166,12 +166,12 @@ require_once("config.php");
 		margin-top: 30px;
 	}
 
-	.spaces {
+	.cnum {
 		position: absolute;
-		top: 186;
+		top: 70;
 		left: 10;
 		height: 25px;
-		width: 335px;
+		width: 200px;
 	}
 
 	.reservation-details {
@@ -372,7 +372,11 @@ require_once("config.php");
 
         <p class="details">CUSTOMER DETAILS</p>
         <div class="border1">
-			
+        <p class="text2">Full Name</p>
+			<input class="cdeets" type="text" name="cdeets" readonly/>
+
+			<p class="text3">Contact Number</p>
+			<input class="cnum" type="text" name="cnum" readonly/>
         </div>
 		<p class="reservation-details">RESERVATION DETAILS</p>
 		<div class="border2">
