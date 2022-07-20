@@ -385,8 +385,8 @@ require_once("config.php");
 					<div class="modal-content">
 						<span class="closeBttn">&times;</span>
 						<i class="fa-regular fa-circle-check"></i>
-						<h2 class="h2">RESERVATION SUCCESSFUL</h2>
-						<p class="text7">Your reservation has been completed.</p>
+						<h2 class="h2">RESERVATION CONFIRMED</h2>
+						<p class="text7">Customer's reservation has been confirmed.</p>
 						<button class="doneBttn">DONE</button>
 					</div>
 				</div>
@@ -434,14 +434,13 @@ require_once("config.php");
 	<script>
 		var modal = document.getElementById('simpleModal');
 		var modalBtn = document.getElementById('confirmBttn');
-        var modalBtn = document.getElementById('cancelBttn');
+        var cancellBtn = document.getElementById('cancelBttn');
 		var closeBtn = document.getElementsByClassName('closeBttn')[0];
 		var doneBtn = document.getElementById('doneBttn');
 
 		modalBtn.onclick = function() {
 			modal.style.display = "block";
 		}
-
 		closeBtn.onclick = function() {
 			modal.style.display = "none";
 		}
