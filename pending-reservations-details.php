@@ -29,8 +29,8 @@ require_once("config.php");
 		background-color: #fff4f3;
 		position: relative;
 		margin: 0 auto;
-		height: 600px;
-		height: 150%;
+		height: 550px;
+		height: 140%;
 		width: 450px;
 		border: 1px solid #fff4f3;
 		border-radius: 20px;
@@ -74,6 +74,14 @@ require_once("config.php");
 		position: relative;
 		width: 355px;
 		height: 130px;
+		border: 2px solid #766260;
+		margin: 0 auto
+	}
+    
+	.border22 {
+		position: relative;
+		width: 355px;
+		height: 115px;
 		border: 2px solid #766260;
 		margin: 0 auto
 	}
@@ -166,12 +174,29 @@ require_once("config.php");
 		margin-top: 30px;
 	}
 
+    
+	.text33 {
+		font-family: "Times New Roman", Times, serif;
+		font-size: 12px;
+		color: #786462;
+		margin-left: 190px;
+		margin-top: -15px;
+	}
+
 	.cnum {
 		position: absolute;
 		top: 70;
 		left: 10;
 		height: 25px;
-		width: 200px;
+		width: 170px;
+	}
+
+    .eadd {
+		position: absolute;
+		top: 70;
+		left: 190;
+		height: 25px;
+		width: 160px;
 	}
 
 	.reservation-details {
@@ -347,7 +372,7 @@ require_once("config.php");
 		font-weight: bold;
 		color: #786462;
 		margin-left: 10px;
-		margin-top: 20px;
+		margin-top: -5px;
 	}
 </style>
 
@@ -371,12 +396,13 @@ require_once("config.php");
 		</div>
 
         <p class="details">CUSTOMER DETAILS</p>
-        <div class="border1">
+        <div class="border22">
         <p class="text2">Full Name</p>
 			<input class="cdeets" type="text" name="cdeets" readonly/>
-
 			<p class="text3">Contact Number</p>
 			<input class="cnum" type="text" name="cnum" readonly/>
+            <p class="text33">Exail Address</p>
+			<input class="eadd" type="text" name="eadd" readonly/>
         </div>
 		<p class="reservation-details">RESERVATION DETAILS</p>
 		<div class="border2">
