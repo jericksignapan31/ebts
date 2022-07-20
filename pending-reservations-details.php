@@ -261,7 +261,21 @@ require_once("config.php");
 		text-align: center;
 	}
 
-	.reserve-btn {
+	.confirm-btn {
+		background-color: #74605e;
+		border: none;
+		color: white;
+		margin-top: 20px;
+		height: 25px;
+		width: 355px;
+		border-radius: 5px;
+		font-family: "Times New Roman", Times, serif;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+	}
+
+    .cancel-btn {
 		background-color: #74605e;
 		border: none;
 		color: white;
@@ -377,7 +391,8 @@ require_once("config.php");
 					</div>
 				</div>
 			</form>
-			<button id="reserveBttn" class="reserve-btn">RESERVE</button>
+			<button id="confirmBttn" class="confirm-btn">CONFIRM</button>
+            <button id="cancelBttn" class="cancel-btn">CANCEL</button>
 		</div>
 	</div>
 
@@ -418,7 +433,8 @@ require_once("config.php");
 
 	<script>
 		var modal = document.getElementById('simpleModal');
-		var modalBtn = document.getElementById('reserveBttn');
+		var modalBtn = document.getElementById('confirmBttn');
+        var modalBtn = document.getElementById('cancelBttn');
 		var closeBtn = document.getElementsByClassName('closeBttn')[0];
 		var doneBtn = document.getElementById('doneBttn');
 
