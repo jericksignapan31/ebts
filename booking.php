@@ -344,7 +344,7 @@ include("config.php");
 
 <section style="position:absolute;margin-left:35%;margin-top:10%;">
 <table class = "tbl_booking" style="width:100%" style="align:center">
-<button id="myBtn" style="margin:25px" onclick="location.href='pending-reservations.php'"> NEW BOOKINGS  <img src="https://www.clipartmax.com/png/full/417-4179936_online-booking-icon-png.png" width = "50" height = "50" alt="Open Book - Opened Book Clip Art @clipartmax.com"></button>
+<button id="myBtn" style="margin:25px" onclick="location.href='confirmed-reservations.php'"> NEW BOOKINGS  <img src="https://www.clipartmax.com/png/full/417-4179936_online-booking-icon-png.png" width = "50" height = "50" alt="Open Book - Opened Book Clip Art @clipartmax.com"></button>
 <button id="myBtn" style="margin:25px" onclick="location.href='approved-reservations.php'"> CHECK-IN     <img src="https://www.clipartmax.com/png/full/337-3377806_door-clipart-entrance-door-open-door-icon-png.png" width = "50" height = "50" alt="Open Book - Opened Book Clip Art @clipartmax.com"></button>
 <button id="myBtn" style="margin:25px" onclick="location.href='for-checkout.php'"> CHECK-OUT <img src="https://www.clipartmax.com/png/full/52-528111_medium-image-door-open-clip-art.png" width = "50" height = "50" alt="Open Book - Opened Book Clip Art @clipartmax.com"></button>
 
