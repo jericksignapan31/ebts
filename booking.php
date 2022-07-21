@@ -344,72 +344,98 @@ include("config.php");
 
 <section style="position:absolute;margin-left:35%;margin-top:10%;">
 <table class = "tbl_booking" style="width:100%" style="align:center">
-<button id="myBtn" style="margin:25px" onclick="location.href='pending-reservations.php'"> NEW BOOKINGS</button>
-<button id="myBtn" style="margin:25px" onclick="location.href='####'"> CHECK-IN</button>
-<button id="myBtn" style="margin:25px" onclick="location.href='####'"> CHECK-OUT</button>
+<button id="myBtn" style="margin:25px" onclick="location.href='pending-reservations.php'"> NEW BOOKINGS  <img src="https://www.clipartmax.com/png/full/417-4179936_online-booking-icon-png.png" width = "50" height = "50" alt="Open Book - Opened Book Clip Art @clipartmax.com"></button>
+<button id="myBtn" style="margin:25px" onclick="location.href='confirmed-reservations.php'"> CHECK-IN     <img src="https://www.clipartmax.com/png/full/337-3377806_door-clipart-entrance-door-open-door-icon-png.png" width = "50" height = "50" alt="Open Book - Opened Book Clip Art @clipartmax.com"></button>
+<button id="myBtn" style="margin:25px" onclick="location.href='for-checkout.php'"> CHECK-OUT <img src="https://www.clipartmax.com/png/full/52-528111_medium-image-door-open-clip-art.png" width = "50" height = "50" alt="Open Book - Opened Book Clip Art @clipartmax.com"></button>
 
 
-<!-- Table Section -->
- <section style="position:absolute;margin-left:35%;margin-top:10%;">
- <caption style="text-align:center" font-size= "1000%" font-weight= "bold"><b>LATEST BOOKINGS</b></caption>
-    <table class = "tbl_booking" style="width:100%" style="align:center">
-    <tr>
-        <th style="text-align:center">House</th>
-        <th style="text-align:center">Name</th>
-        <th style="text-align:center">Check In</th>
-        <th style="text-align:center">Check Out</th>
-        <th style="text-align:center">Reference</th>
-    </tr>
-    <tr>
-        <td>TESTHOUSENAME</td>
-        <td>TESTNAME</td>
-        <td>TESTDATE_IN</td>
-        <td>TESTDATE_OUT</td>
-        <td>REFTEST</td>
-    </tr>
-    <tr>
-        <td>TESTHOUSENAME</td>
-        <td>TESTNAME</td>
-        <td>TESTDATE_IN</td>
-        <td>TESTDATE_OUT</td>
-        <td>REFTEST</td>
-    </tr>
-    <tr>
-        <td>TESTHOUSENAME</td>
-        <td>TESTNAME</td>
-        <td>TESTDATE_IN</td>
-        <td>TESTDATE_OUT</td>
-        <td>REFTEST</td>
-    </tr>
-    <tr>
-        <td>TESTHOUSENAME</td>
-        <td>TESTNAME</td>
-        <td>TESTDATE_IN</td>
-        <td>TESTDATE_OUT</td>
-        <td>REFTEST</td>
-    </tr>
-    <tr>
-        <td>TESTHOUSENAME</td>
-        <td>TESTNAME</td>
-        <td>TESTDATE_IN</td>
-        <td>TESTDATE_OUT</td>
-        <td>REFTEST</td>
-    </tr>
-    <tr>
-        <td>TESTHOUSENAME</td>
-        <td>TESTNAME</td>
-        <td>TESTDATE_IN</td>
-        <td>TESTDATE_OUT</td>
-        <td>REFTEST</td>
-    </tr>
-</table>
-<div class="table" font-size: 500px>
-</div>
-<style>
-.tb1_booking, th, td {
-  border: 1px solid black;
-}
-</style>
+<!-- Table Section (to be edited - database, sql, naming scheme-->
+ 
+<section style="position:absolute;margin-left:20%;margin-top:5%;">
+        
+        <?php
+        if (isset($_POST['seee'])) {
+            $search = $_POST['search'];
+            $sql1 = "SELECT * FROM tbl_booking  where fullname  regexp '(^|[[:space:]])$search([[:space:]]|$)'";
+            $result1 = $conn->query($sql1);
+            if ($result1 == TRUE) {
+                echo "<html>";
+                echo "<body>";
+                echo "<center>";
+                echo "<div style='height:700px;  width:1250px; overflow:auto; overflow-x: hidden;'><table id=customers border-collapse: collapse;
+cellspacing=0 cellpadding=0; >";
+                echo "<tr>";
+                echo "<th>HOUSE";
+                echo "<th>NAME";
+                echo "<th>CHECK IN";
+                echo "<th>CHECK OUT";
+                echo "<th>REFERENCE";
+                while ($row = $result1->fetch_assoc()) {
+                    echo "<tr>";
+                    echo "<td>" . $row['house_name'];
+                    echo "<td>" . $row['fullname'];
+                    echo "<td>" . $row['from_date'];
+                    echo "<td>" . $row['to_date'];
+                    echo "<td>" . $row['booking_id'];
+                }
+            } else {
+                $sql2 = "SELECT * FROM tbl_booking";
+                $result2 = $conn->query($sql2);
+                if ($result2 == TRUE) {
+                    echo "<html>";
+                    echo "<body>";
+                    echo "<center>";
+                    echo "<div style='height:700px;  width:1250px; overflow:auto;'><table id=customers border-collapse: collapse;
+cellspacing=0 cellpadding=0; >";
+                    echo "<tr>";
+                    echo "<th>HOUSE";
+                    echo "<th>NAME";
+                    echo "<th>CHECK IN";
+                    echo "<th>CHECK OUT";
+                    echo "<th>REFERENCE";
+                    while ($row = $result2->fetch_assoc()) {
+                        echo "<tr>";
+                        echo "<td>" . $row['house_name'];
+                        echo "<td>" . $row['fullname'];
+                        echo "<td>" . $row['from_date'];
+                        echo "<td>" . $row['to_date'];
+                        echo "<td>" . $row['booking_id'];
+                    }
+                }
+            }
+        } else {
+            $sql2 = "SELECT * FROM tbl_booking";
+            $result2 = $conn->query($sql2);
+            if ($result2 == TRUE) {
+                echo "<html>";
+                echo "<body>";
+                echo "<center>";
+                echo "<div style='height:700px; width:1250px; overflow:auto; overflow-x: hidden;'><table id=customers border-collapse: collapse;
+cellspacing=0 cellpadding=0;>";
+                echo "<tr>";
+                echo "<th>HOUSE";
+                echo "<th>NAME";
+                echo "<th>CHECK IN";
+                echo "<th>CHECK OUT";
+                echo "<th>REFERENCE";
+                while ($row = $result2->fetch_assoc()) {
+                    echo "<tr>";
+                    echo "<td>" . $row['house_name'];
+                    echo "<td>" . $row['fullname'];
+                    echo "<td>" . $row['from_date'];
+                    echo "<td>" . $row['to_date'];
+                    echo "<td>" . $row['booking_id'];
+                }
+            }
+        }
+
+
+        ?>
+    </section>
+    </body>
+    </HTML>
+
+
 
 
 

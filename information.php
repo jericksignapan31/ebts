@@ -1,7 +1,3 @@
-<?php
-require_once("config.php");
-?>
-
 <html>
 
 <head>
@@ -336,20 +332,44 @@ require_once("config.php");
 			<i class="fa-solid fa-circle-xmark"></i>
 		</a>
 		<p class="details">DETAILS</p>
+		<?php
+			require "config.php";
 
+			if (!isset($_GET['id'])){
+
+			} else {
+				$id = (int)$_GET['id'];
+			}
+			$sql = "SELECT * FROM tbl_picture WHERE id=$id";
+			$result = $conn->query($sql);
+			$row = $result->fetch_array();
+			mysqli_close($conn);
+		?>
 		<div class="border1">
 			<i class="fa-solid fa-house-chimney"></i>
-			<input class="houseName" type="text" name="houseName" readonly />
+			<input class="houseName" type="text" name="houseName" value=<?php echo $row['house_name']?> readonly/>
 			<i class="fa-solid fa-money-bills"></i>
-			<input class="rate" type="text" name="cost" readonly /> <input class="perNight" type="text" name="perNight" placeholder="          /per night" readonly />
+			
+			<input class="rate" type="text" name="cost" 
+			value= <?php 
+			$str = explode("/",$row['price']);
+			echo $str[0]; //echo the price
+			?> readonly/> 
+			<input class="perNight" type="text" name="perNight" placeholder="     /per night" 
+			value= <?php 
+			$str = explode("/",$row['price']);
+			echo $str[1]; //echo per month or per night
+			?>
+			readonly/>
+			
 			<i class="fa-solid fa-location-dot"></i>
-			<input class="location" type="text" name="address" readonly />
+			<input class="location" type="text" name="address" value=<?php echo $row['location']?> readonly/>
 
 			<p class="text2">Amenities</p>
-			<input class="amenities" type="text" name="amenities" readonly />
+			<input class="amenities" type="text" name="amenities" readonly/>
 
 			<p class="text3">Spaces</p>
-			<input class="spaces" type="text" name="spaces" readonly />
+			<input class="spaces" type="text" name="spaces" readonly/>
 		</div>
 
 		<p class="reservation-details">RESERVATION DETAILS</p>
@@ -359,10 +379,10 @@ require_once("config.php");
 				<p id="crrnt_date" class="crrnt-date"></p>
 				<p class="text4">Check-in</p>
 				<p class="text5">Check-out</p>
-				<input type="date" class="date-in" name="from_date" placeholder="MM/DD/YY">
-				<input type="date" class="date-out" name="to_date" placeholder="MM/DD/YY">
+				<input type="date" class="date-in" name="from_date" placeholder="MM/DD/YY" value=<?php echo $row['from_date']?> >
+				<input type="date" class="date-out" name="to_date" placeholder="MM/DD/YY" value=<?php echo $row['to_date']?> >
 				<p class="text6">Number of Guest</p>
-				<input type="number" class="numguest" name="number_guest" placeholder="--" min="1" max="12">
+				<input type="number" class="numguest" name="number_guest" placeholder="--" min="1" max="12" value =<?php echo $row['capacity']?> >
 				<div id="simpleModal" class="modal">
 					<div class="modal-content">
 						<span class="closeBttn">&times;</span>
@@ -430,7 +450,7 @@ require_once("config.php");
 			modal.style.display = "none";
 		}
 	</script>
-
+	
 </body>
 
 

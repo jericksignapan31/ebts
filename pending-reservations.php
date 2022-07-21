@@ -339,3 +339,9 @@ include("config.php");
             </li>
         </ul>
     </nav>
+
+<section style="position:absolute;margin-left:20%;margin-top:10%;">
+    <div class="card" id="card1" style="width: 20rem;height:24rem;background-color:#ecf0f1;margin-top:10%;">
+      <a href="pending-reservations-details.php" data-toggle="modal" data-target="#m_card1"><img src="image/1.png" class="card-img-top" alt="..."></a>
+    </div>
+</section>
