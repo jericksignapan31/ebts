@@ -381,7 +381,7 @@ require_once("config.php");
 <body>
 	<div class="reservation-box">
 		<img class="img-ebts_logo" src="image/ebts_trans.png">
-		<a href="customer-home.php">
+		<a href="booking.php">
 			<i class="fa-solid fa-circle-xmark"></i>
 		</a>
         <p class="reference">Reference Number: </p>
@@ -427,7 +427,7 @@ require_once("config.php");
 				</div>
 			</form>
 			<button id="confirmBttn" class="confirm-btn">CONFIRM</button>
-            <button id="cancelBttn" class="cancel-btn">CANCEL</button>
+            <button id="cancelBttn" class="cancel-btn" onclick="location.href='pending-reservations.php'">CANCEL</button>
 		</div>
 	</div>
 
@@ -469,7 +469,6 @@ require_once("config.php");
 	<script>
 		var modal = document.getElementById('simpleModal');
 		var modalBtn = document.getElementById('confirmBttn');
-        var cancellBtn = document.getElementById('cancelBttn');
 		var closeBtn = document.getElementsByClassName('closeBttn')[0];
 		var doneBtn = document.getElementById('doneBttn');
 
