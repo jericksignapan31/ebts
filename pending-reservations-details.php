@@ -337,6 +337,16 @@ require_once("config.php");
 		box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
 	}
 
+	.cancelpopup {
+		background-color: #fff4f3;
+		margin: 15% auto;
+		padding: 20px;
+		height: 30%;
+		width: 40%;
+		border-radius: 20px;
+		box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+	}
+
 	.closeBttn {
 		color: #ccc;
 		float: right;
@@ -427,7 +437,13 @@ require_once("config.php");
 				</div>
 			</form>
 			<button id="confirmBttn" class="confirm-btn">CONFIRM</button>
-            <button id="cancelBttn" class="cancel-btn" onclick="location.href='pending-reservations.php'">CANCEL</button>
+			<button type= "cancel" class="cancel-btn" >CANCEL</button>
+			<div class="modal">
+			<div class = "cancelpopup">
+			<i class="fa-regular fa-circle-x"></i>
+			<h2 class="h2">RESERVATION CANCELLED</h2>
+			<p class="text7">Customer's reservation has been cANCELLED.</p>
+			<button class="doneBttn">DONE</button>
 		</div>
 	</div>
 
