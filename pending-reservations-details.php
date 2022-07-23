@@ -5,7 +5,7 @@ require_once("config.php");
 <html>
 
 <head>
-	<title>Admin Reservation Details</title>
+	<title>Customer Reservation Details</title>
 
 	<link rel='stylesheet' href='css/all.css'>
 	<link rel='icon' href='image/TRANSPARENT BG.png'>
