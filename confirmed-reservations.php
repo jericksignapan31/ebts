@@ -342,7 +342,7 @@ include("config.php");
 
 <section style="position:absolute;margin-left:20%;margin-top:10%;">
 <div class="card" id="card3" style="width: 20rem;height:24rem;background-color:#ecf0f1;margin-top:10%;">
-      <a href="#" data-toggle="modal" data-target="#m_card3"><img src="image/8.png" class="card-img-top" alt="..."></a>
+      <a href="confirmed-reservations-details.php" data-toggle="modal" data-target="#m_card3"><img src="image/8.png" class="card-img-top" alt="..."></a>
     </div>
 
     <div class="card" id="card4" style="width: 20rem;height:24rem;background-color:#ecf0f1;margin-top:-120%; margin-left:120%; ">
