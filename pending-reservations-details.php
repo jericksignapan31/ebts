@@ -437,13 +437,7 @@ require_once("config.php");
 				</div>
 			</form>
 			<button id="confirmBttn" class="confirm-btn">CONFIRM</button>
-			<button type= "cancel" class="cancel-btn" >CANCEL</button>
-			<div id="simpleModal" class="modal">
-				<div class = "cancelpopup">
-			<i class="fa-regular fa-circle-x"></i>
-			<h2 class="h2">RESERVATION CANCELLED</h2>
-			<p class="text7">Customer's reservation has been cANCELLED.</p>
-			<button class="doneBttn">DONE</button>
+			<button type= "cancel" class="cancel-btn" onclick="location.href='pending-reservations.php'">CANCEL</button>
 		</div>
 	</div>
 
