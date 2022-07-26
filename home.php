@@ -353,40 +353,40 @@ require "config.php";
 
   <section id="ratefooter">
 
-    <div class="card" id="card1" style="width: 20rem;height:24rem;background-color:#ecf0f1;margin-top:10%;">
+    <div class="card" id="card1" style="width: 20rem;height:24rem;background-color:#ecf0f1;margin-top:10%; margin-left:3%;">
       <a href="#" data-toggle="modal" data-target="#m_card1"><img src="image/1.png" class="card-img-top" alt="..."></a>
     </div>
 
 
-    <div class="card" id="card2" style="width: 20rem;height:24rem;background-color:#ecf0f1;margin-top:10%;">
+    <div class="card" id="card2" style="width: 20rem;height:24rem;background-color:#ecf0f1;margin-top:10%; margin-left:26%">
       <a href="#" data-toggle="modal" data-target="#m_card2"><img src="image/2.png" class="card-img-top" alt="..."></a>
     </div>
 
-    <div class="card" id="card3" style="width: 20rem;height:24rem;background-color:#ecf0f1;margin-top:10%;">
+    <div class="card" id="card3" style="width: 20rem;height:24rem;background-color:#ecf0f1;margin-top:10%;margin-left:49%">
       <a href="#" data-toggle="modal" data-target="#m_card3"><img src="image/8.png" class="card-img-top" alt="..."></a>
     </div>
 
-    <div class="card" id="card4" style="width: 20rem;height:24rem;background-color:#ecf0f1;margin-top:10%;">
+    <div class="card" id="card4" style="width: 20rem;height:24rem;background-color:#ecf0f1;margin-top:10%; margin-left:72%">
       <a href="#" data-toggle="modal" data-target="#m_card4"> <img src="image/num4.png" class="card-img-top" alt="..."></a>
     </div>
 
-    <div class="card" id="card5" style="width: 20rem;height:24rem;background-color:#ecf0f1;margin-top:35%;">
+    <div class="card" id="card5" style="width: 20rem;height:24rem;background-color:#ecf0f1;margin-top:38%; margin-left:3%">
       <a href="#" data-toggle="modal" data-target="#m_card5"><img src="image/num5.png" class="card-img-top" alt="..."></a>
     </div>
 
-    <div class="card" id="card6" style="width: 20rem;height:24rem;background-color:#ecf0f1;margin-top:35%;">
+    <div class="card" id="card6" style="width: 20rem;height:24rem;background-color:#ecf0f1;margin-top:38%; margin-left:26%">
       <a href="#" data-toggle="modal" data-target="#m_card6"><img src="image/5.png" class="card-img-top" alt="..."></a>
     </div>
 
-    <div class="card" id="card7" style="width: 20rem;height:24rem;background-color:#ecf0f1;margin-top:35%;">
+    <div class="card" id="card7" style="width: 20rem;height:24rem;background-color:#ecf0f1;margin-top:38%;margin-left:49%">
       <a href="#" data-toggle="modal" data-target="#m_card7"><img src="image/6.png" class="card-img-top" alt="..."></a>
     </div>
 
-    <div class="card" id="card8" style="width: 20rem;height:24rem;background-color:#ecf0f1;margin-top:35%;">
+    <div class="card" id="card8" style="width: 20rem;height:24rem;background-color:#ecf0f1;margin-top:38%;margin-left:72%">
       <a href="#" data-toggle="modal" data-target="#m_card8"><img src="image/7.png" class="card-img-top" alt="..."></a>
     </div>
 
-    <div class="card" id="card9" style="width: 20rem;height:24rem;background-color:#ecf0f1;margin-top:63%; margin-left:7%;>
+    <div class="card" id="card9" style="width: 20rem;height:24rem;background-color:#ecf0f1;margin-top:66%; margin-left:3%;>
       <a href="#" data-toggle="modal" data-target="#m_card9"><img src="image/num9.png" class="card-img-top" alt="..."></a>
     </div>
 
