@@ -386,7 +386,7 @@ require "config.php";
       <a href="#" data-toggle="modal" data-target="#m_card8"><img src="image/7.png" class="card-img-top" alt="..."></a>
     </div>
 
-    <div class="card" id="card9" style="width: 20rem;height:24rem;background-color:#ecf0f1;margin-top:60%;">
+    <div class="card" id="card9" style="width: 20rem;height:24rem;background-color:#ecf0f1;margin-top:63%; margin-left:7%;>
       <a href="#" data-toggle="modal" data-target="#m_card9"><img src="image/num9.png" class="card-img-top" alt="..."></a>
     </div>
 
