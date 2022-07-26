@@ -109,9 +109,6 @@ require "config.php";
       height: 30%;
     }
 
-
-
-
     .mySlides {
       display: none;
     }
@@ -396,7 +393,7 @@ require "config.php";
   </section>
 
   <div class="service" style="position:absolute;margin-top:95%;margin-left:30%;">
-    <a><img src="image/service.png"></a>
+    <a><img src="image/service.png" width="640"></a>
   </div>
   <section id="locationfooter">
 
