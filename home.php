@@ -166,9 +166,9 @@ require "config.php";
     /* Fading animation */
     .fade {
       -webkit-animation-name: fade;
-      -webkit-animation-duration: 3s;
+      -webkit-animation-duration: 2s;
       animation-name: fade;
-      animation-duration: 3s;
+      animation-duration: 2s;
     }
 
     @-webkit-keyframes fade {
