@@ -125,7 +125,7 @@ require "config.php";
       max-width: 1000px;
       position: absolute;
       margin: auto;
-      margin-left: 23%;
+      margin-left: 13%;
     }
 
     /* Caption text */
@@ -166,9 +166,9 @@ require "config.php";
     /* Fading animation */
     .fade {
       -webkit-animation-name: fade;
-      -webkit-animation-duration: 1.5s;
+      -webkit-animation-duration: 3s;
       animation-name: fade;
-      animation-duration: 1.5s;
+      animation-duration: 3s;
     }
 
     @-webkit-keyframes fade {
@@ -338,7 +338,7 @@ require "config.php";
       }
       slides[slideIndex - 1].style.display = "block";
       dots[slideIndex - 1].className += " active";
-      setTimeout(showSlides, 2000); // Change image every 2 seconds
+      setTimeout(showSlides, 3000); // Change image every 3 seconds
     }
   </script>
 
