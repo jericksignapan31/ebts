@@ -346,7 +346,7 @@ include("config.php");
     </div>
 
     <div class="card" id="card4" style="width: 20rem;height:24rem;background-color:#ecf0f1;margin-top:-120%; margin-left:120%; ">
-      <a href="#" data-toggle="modal" data-target="#m_card4"> <img src="image/num4.png" class="card-img-top" alt="..."></a>
+      <a href="confirmed-reservations-details.php" data-toggle="modal" data-target="#m_card4"> <img src="image/num4.png" class="card-img-top" alt="..."></a>
     </div>
 
 
