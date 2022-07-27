@@ -2,6 +2,19 @@
 require_once("config.php");
 ?>
 
+<?php
+	$sql = "SELECT * FROM tbl_booking;";
+	$result = mysqli_query($conn, $sql);
+	$resultCheck = mysqli_num_rows($result);
+
+	if($resultCheck > 0){
+		while ($row = mysqli_fetch_assoc($result)){
+			echo $row['listing_id'];
+		}
+	}
+
+
+?>
 <html>
 
 <head>
@@ -409,11 +422,11 @@ require_once("config.php");
         <p class="details">CUSTOMER DETAILS</p>
         <div class="border22">
         <p class="text2">Full Name</p>
-			<input class="cdeets" type="text" name="cdeets" readonly/>
-			<p class="text3">Contact Number</p>
-			<input class="cnum" type="text" name="cnum" readonly/>
-            <p class="text33">Exail Address</p>
-			<input class="eadd" type="text" name="eadd" readonly/>
+		<input class="cdeets" type="text" name="cdeets" readonly/>
+		<p class="text3">Contact Number</p>
+		<input class="cnum" type="text" name="cnum" readonly/>
+        <p class="text33">Exail Address</p>
+		<input class="eadd" type="text" name="eadd" readonly/>
         </div>
 		<p class="reservation-details">RESERVATION DETAILS</p>
 		<div class="border2">
