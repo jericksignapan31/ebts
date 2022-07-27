@@ -428,14 +428,7 @@ cellspacing=0 cellpadding=0;>";
                 }
             }
         }
-
-
         ?>
     </section>
-    </body>
-    </HTML>
-
-
-
-
-
+</body>
+</html>
