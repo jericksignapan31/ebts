@@ -188,14 +188,6 @@ require "config.php";
       }
     }
 
-    /* On smaller screens, decrease text size */
-    @media only screen and (max-width: 300px) {
-      .text {
-        font-size: 11px
-      }
-    }
-
-
 
     .page-footer {
       position: relative;
@@ -204,20 +196,10 @@ require "config.php";
     }
 
 
-
     .container {
       padding: 2rem 0rem;
     }
 
-    @media (min-width: 576px) {
-      .modal-dialog {
-        max-width: 400px;
-      }
-
-      .modal-dialog .modal-content {
-        padding: 1rem;
-      }
-    }
 
     .modal-header .close {
       margin-top: -1.5rem;
@@ -242,6 +224,25 @@ require "config.php";
     .signup-section {
       padding: 0.3rem 0rem;
     }
+    .mapouter {
+        position: relative;
+        text-align: right;
+        height: 625px;
+        width: 810px;
+        margin-top: 110%;
+        margin-left: 5%
+     }
+
+    @media (max-width:320px)  {
+      .mapouter {
+      
+      }
+       }
+    @media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
+    @media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+    @media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+    @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+    @media (min-width:1281px) { /* hi-res laptops and desktops */ }
   </style>
 </head>
 
@@ -401,16 +402,6 @@ require "config.php";
 
     <div class="mapouter">
       <div class="gmap_canvas"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.790103407343!2d120.99405001744384!3d14.611029599999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b60300001d5d%3A0x8b5106ceb6a4b550!2sMA%20Patricia%20Manotoc%20Boarding%20House!5e0!3m2!1sen!2sph!4v1645419356228!5m2!1sen!2sph" width="150%" height="90%" style="border:0;" allowfullscreen="" loading="lazy"></iframe><br>
-        <style>
-          .mapouter {
-            position: relative;
-            text-align: right;
-            height: 625px;
-            width: 810px;
-            margin-top: 110%;
-            margin-left: 5%
-          }
-        </style>
       </div>
     </div>
 
