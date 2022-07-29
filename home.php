@@ -241,13 +241,16 @@ require "config.php";
 
     @media (max-width:480px)  {
       .mapouter {
+     
         margin-top: 190%;
         margin-left: 4%;
         width: 150px;
         height: 300px;  
       }
       .service{
-        margin-top: 200%;
+    
+        margin-top: 140%;
+        width: 150px;
       }
        }
     @media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
@@ -406,7 +409,7 @@ require "config.php";
   </section>
 
   <div class="service">
-    <a><img src="image/service.png" width="640"></a>
+    <a><img src="image/service.png" class="service"></a>
   </div>
   <section id="locationfooter">
 
