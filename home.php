@@ -241,16 +241,15 @@ require "config.php";
 
     @media (max-width:480px)  {
       .mapouter {
-     
-        margin-top: 190%;
+        margin-top: 200%;
         margin-left: 4%;
-        width: 150px;
+        width: 220px;
         height: 300px;  
       }
       .service{
-    
-        margin-top: 140%;
-        width: 150px;
+        margin-top: 105%;
+        margin-left: 10%;
+        width: 250px;
       }
        }
     @media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
