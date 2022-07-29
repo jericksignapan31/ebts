@@ -233,9 +233,21 @@ require "config.php";
         margin-left: 5%
      }
 
-    @media (max-width:320px)  {
+     .service{
+      position:absolute;
+      margin-top:95%;
+      margin-left:30%;
+     }
+
+    @media (max-width:480px)  {
       .mapouter {
-      
+        margin-top: 190%;
+        margin-left: 4%;
+        width: 150px;
+        height: 300px;  
+      }
+      .service{
+        margin-top: 200%;
       }
        }
     @media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
@@ -393,7 +405,7 @@ require "config.php";
 
   </section>
 
-  <div class="service" style="position:absolute;margin-top:95%;margin-left:30%;">
+  <div class="service">
     <a><img src="image/service.png" width="640"></a>
   </div>
   <section id="locationfooter">
