@@ -251,7 +251,8 @@ require "config.php";
         margin-left: 10%;
         width: 250px;
       }
-       }
+
+      }
     @media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
     @media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
     @media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
