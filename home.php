@@ -239,10 +239,10 @@ require "config.php";
       margin-left:30%;
      }
 
-    @media (max-width:480px)  {
+    @media (max-width:600px)  {
       .mapouter {
         margin-top: 200%;
-        margin-left: 4%;
+        margin-left: 10%;
         width: 220px;
         height: 300px;  
       }
