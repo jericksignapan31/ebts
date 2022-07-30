@@ -245,8 +245,9 @@ require "config.php";
         width: 100%;
       }
       .service{
-        margin-top: 105%;
+        margin-top: 85%;
         width: 100%;
+        margin-left: 15%;
       }
 
       }
