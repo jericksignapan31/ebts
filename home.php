@@ -242,14 +242,11 @@ require "config.php";
     @media (max-width:600px)  {
       .mapouter {
         margin-top: 200%;
-        margin-left: 10%;
-        width: 220px;
-        height: 300px;  
+        width: 100%;
       }
       .service{
         margin-top: 105%;
-        margin-left: 10%;
-        width: 250px;
+        width: 100%;
       }
 
       }
