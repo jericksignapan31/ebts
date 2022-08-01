@@ -218,6 +218,41 @@ include("config.php");
         text-align: center;
         margin-top: 3%;
     }
+    @media only screen and (max-width: 480px),only screen and (max-device-width: 480px) {   
+        .area {
+        width: 100%;
+        height: 100%;
+}
+        .main-menu {
+        width: auto;
+        overflow: hidden;
+        -webkit-transition: width .05s linear;
+        transition: width .05s linear;
+        z-index: 1000;
+        height: 90%;
+    }
+        .home {
+        width: 90%;
+        height: 90%;
+    }
+        .main-menu .nav-text {
+        width: auto;
+    }
+    .home h1 {
+        font-size: 100px;
+        margin-left: 20%;
+    }
+    .main-menu li>a {
+        font-size: 34px;
+    }
+    .fa {
+        width: 80px;
+        height: 56px;
+    }
+    .fa-2x {
+        font-size: 40px;
+    }
+    }
 </style>
 
 <div class="home">
